@@ -1,9 +1,51 @@
 {
   "6ef13e42-ad89-4d42-9480-546e0c04a411": [
     {
-      "Key": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Key": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
+      "Code": "230",
       "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
-      "Name": "Tax payable"
+      "Name": "Обврски за данокот на додадена вредност"
+    }
+  ],
+  "cbc9e14d-660e-4ed9-935a-fe1005b2a430": [
+    {
+      "Key": "6d4af96a-0959-4bb2-9160-fa825ec67c43",
+      "Code": "100",
+      "Group": "4c05c221-ca57-4c7c-be62-115669302ed4",
+      "Name": "Парични средства на трансакциски сметки во денари "
+    },
+    {
+      "Key": "74dfd025-d68e-4a99-9c78-5d43e17c0e09",
+      "Code": "951",
+      "Group": "9275ff4c-4cff-41d0-b7b5-f31c783f03d8",
+      "Name": "Добивка од тековната година"
+    },
+    {
+      "Key": "d1489e95-bb28-4f5d-b42e-67d3291b3893",
+      "Code": "120",
+      "Group": "4c05c221-ca57-4c7c-be62-115669302ed4",
+      "Name": "Побарувања од купувачи"
+    },
+    {
+      "Key": "dac7ba37-0ccd-45e5-906e-548e6c50df37",
+      "Code": "220",
+      "Group": "ed5a19f6-12c5-45cc-b4b7-4e79f7ef50bc",
+      "Name": "Обврски кон добавувачи"
+    }
+  ],
+  "1408c33b-6284-4f50-9e31-48cbea21f3cf": [
+    {
+      "Key": "bd1e38a2-1040-4b4a-9f86-712971fce8e2",
+      "Code": "100",
+      "CustomFields": {},
+      "Name": "Трансакциска сметка"
+    }
+  ],
+  "ec37c11e-2b67-49c6-8a58-6eccb7dd75ee": [
+    {
+      "Key": "498402f0-8e7c-4121-aef7-4129ad8286f7",
+      "CustomFields": {},
+      "Name": "Трговија ДОО"
     }
   ],
   "dcb382dc-a4e0-4354-a845-b7d647f610f7": [
@@ -24,87 +66,117 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": [
     {
       "Key": "a56e89d1-7bee-4509-8b84-c9ebc3808b0c",
-      "EncodedNumberFormat": "CgEsEgEuGAM=",
+      "EncodedNumberFormat": "CgEuEgEsGAM=",
       "FirstDayOfWeek": 1,
-      "ShortDatePattern": "dd.M.yyyy",
-      "TimeFormat": "HH:mm:ss"
+      "ShortDatePattern": "dd-MMM-yy",
+      "TimeFormat": "h:mm:ss tt"
     }
   ],
   "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": [
     {
-      "Key": "09c016d5-01b8-4ffc-a154-1f67ab1af709",
+      "Key": "09b64f02-7d4f-4860-bcf2-5645863d3310",
+      "Code": "449",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Донации"
+      "Name": "Сметководствени услуги",
+      "Position": 13
     },
     {
-      "Key": "14cc7306-1424-4715-ab39-4acf88ee2292",
+      "Key": "0ba669bd-d476-43d6-8d3a-52af3fe87985",
+      "Code": "446",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Поправки и одржување"
+      "Name": "Банкарски услуги и трошоци за платен промет ",
+      "Position": 12
     },
     {
-      "Key": "1a861da4-8c34-46c7-ae31-c8c59988d967",
+      "Key": "4005d68e-e4f6-46cf-b649-15007a24e63a",
+      "Code": "416",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Компјутерска опрема"
+      "Name": "Трошоци за истражување и развој ",
+      "Position": 9
     },
     {
-      "Key": "4a2897c8-24c3-4027-978c-a04539c8d4cc",
+      "Key": "427426de-6c3c-4d02-9212-21046c25ebe1",
+      "Code": "415",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Телефон"
+      "Name": "Комунални услуги",
+      "Position": 8
     },
     {
-      "Key": "57ebc0f5-310f-4b89-a3a2-11db9e6eb7d8",
+      "Key": "48f7508f-b842-4d64-9700-63b3c4e95f2c",
+      "Code": "405",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Закупнина"
+      "Name": "Трошоци за резервни делови и материјали за одржување",
+      "Position": 3
     },
     {
-      "Key": "60d21772-0983-4300-ae11-87a3ce332dcf",
+      "Key": "559afdb0-54e4-4929-9872-33f409511762",
+      "Code": "445",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Банкарски трошоци"
+      "Name": "Трошоци за осигурување ",
+      "Position": 11
     },
     {
-      "Key": "7228a6ab-d821-4d4d-b721-503ee21583f0",
+      "Key": "5e6aa40b-7753-4b87-bde2-6716ef652b9b",
+      "Code": "401",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Забава"
+      "Name": "Трошоци за материјали",
+      "Position": 1
     },
     {
-      "Key": "90881b10-9e37-4979-872d-7a2fd671c546",
+      "Key": "84f70f57-a9c5-4a92-8771-23aba9f57f23",
+      "Code": "410",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Штампарска и канцелариска опрема"
+      "Name": "Транспортни услуги",
+      "Position": 4
     },
     {
-      "Key": "b170d1e0-3535-490d-bf4f-aa8de63d1f04",
+      "Key": "8a8e1058-e615-4142-9f03-ff86f2e9a6cd",
+      "Code": "411",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Правни трошоци"
+      "Name": "Поштенски, телефонски и интернет услуги",
+      "Position": 5
     },
     {
-      "Key": "bc42e10e-d254-46e1-8fd4-199992841c24",
+      "Key": "95edf682-d330-4072-8eaa-5beeff3aa5cc",
+      "Code": "444",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Струја"
+      "Name": "Трошоци за репрезентација ",
+      "Position": 10
     },
     {
-      "Key": "c5b2612f-6d52-4298-933f-9b9f9e459ca9",
+      "Key": "982a8506-07fa-4846-9632-8d9f39fd0f2a",
+      "Code": "774",
       "Group": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
-      "Name": "Камати"
+      "Name": "Камата",
+      "Position": 2
     },
     {
-      "Key": "e3e5fc72-ce29-4dc7-9397-9874986bf9c3",
+      "Key": "98829d29-8e97-426d-a543-6a2d8716d8d7",
+      "Code": "403",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Сметководствени расходи"
+      "Name": "Електрична енергија",
+      "Position": 2
     },
     {
-      "Key": "ea261c61-f481-49c9-a207-478bf7647a45",
+      "Key": "ca774ee5-72b9-4fb8-8d43-7d6e24a08f9e",
+      "Code": "414",
       "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Трошоци за моторни возила"
+      "Name": "Наемнини",
+      "Position": 7
     },
     {
-      "Key": "efc04687-65c4-44e8-908c-faa945dc735d",
+      "Key": "e9548874-1c3a-4b45-903a-89d1c5e831a9",
+      "Code": "413",
+      "Group": "fd003045-876e-439e-b923-1904453f5c30",
+      "Name": "Услуги за одржување и заштита ",
+      "Position": 6
+    },
+    {
+      "Key": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+      "Code": "740",
       "Group": "95713fac-30d3-42e4-b536-dd7bc4f7a80e",
-      "Name": "Продажба"
-    },
-    {
-      "Key": "fa23b9d7-1559-432a-a1bf-5566bf8d768d",
-      "Group": "fd003045-876e-439e-b923-1904453f5c30",
-      "Name": "Рекламирање и промоција"
+      "Name": "Продажба",
+      "Position": 1
     }
   ],
   "5770616c-0e01-46ca-a172-f7042275da6c": [
@@ -115,9 +187,131 @@
     },
     {
       "Key": "fd003045-876e-439e-b923-1904453f5c30",
-      "IsExpense": true,
       "Name": "Трошоци",
-      "Position": 2
+      "Position": 2,
+      "Type": "ExpenseGroup"
+    }
+  ],
+  "58b9eb90-f6b8-4abc-8ea1-12fd77b8336e": [
+    {
+      "Key": "15314b8c-647d-40cf-94d6-1e34af1ab627",
+      "CustomFields": {},
+      "Description": "Фактура со ставки за излезен ДДВ",
+      "From": "088204c0-7ae2-4454-a8a9-79dbbdadbe03",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "ca774ee5-72b9-4fb8-8d43-7d6e24a08f9e",
+          "Amount": 2000.0,
+          "CustomFields": {},
+          "Description": "Закупнина",
+          "TaxCode": "d7eba1a0-d27c-465c-94ca-38e7b480266a"
+        },
+        {
+          "Account": "98829d29-8e97-426d-a543-6a2d8716d8d7",
+          "Amount": 600.0,
+          "CustomFields": {},
+          "Description": "Електрична енергија",
+          "TaxCode": "d7eba1a0-d27c-465c-94ca-38e7b480266a"
+        },
+        {
+          "Account": "427426de-6c3c-4d02-9212-21046c25ebe1",
+          "Amount": 200.0,
+          "CustomFields": {},
+          "Description": "Вода",
+          "TaxCode": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a"
+        },
+        {
+          "Account": "427426de-6c3c-4d02-9212-21046c25ebe1",
+          "Amount": 100.0,
+          "CustomFields": {},
+          "Description": "Комунална такса",
+          "TaxCode": "a0af1cab-581e-41bc-b711-59390b68a767"
+        }
+      ]
+    },
+    {
+      "Key": "200d57c0-b8e2-4401-bb70-449f295caf1d",
+      "CustomFields": {},
+      "Description": "Градежни работи",
+      "From": "088204c0-7ae2-4454-a8a9-79dbbdadbe03",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "48f7508f-b842-4d64-9700-63b3c4e95f2c",
+          "Amount": 100000.0,
+          "CustomFields": {},
+          "Description": "По член 32-а 18%",
+          "TaxCode": "17b4df47-2148-40bd-a2c6-56d426d44ca0"
+        },
+        {
+          "Account": "48f7508f-b842-4d64-9700-63b3c4e95f2c",
+          "Amount": 20000.0,
+          "CustomFields": {},
+          "Description": "По член 32-а 5%",
+          "TaxCode": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b"
+        }
+      ]
+    },
+    {
+      "Key": "6a078e27-cd60-46aa-adb5-c0e11ec27000",
+      "CustomFields": {},
+      "Description": "Влезна фактура по Член 32-4",
+      "From": "088204c0-7ae2-4454-a8a9-79dbbdadbe03",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "e9548874-1c3a-4b45-903a-89d1c5e831a9",
+          "Amount": 15000.0,
+          "CustomFields": {},
+          "Description": "По член 32-4 18%",
+          "TaxCode": "9201a831-7cf6-4963-a33d-fd404c6f02dc"
+        },
+        {
+          "Account": "e9548874-1c3a-4b45-903a-89d1c5e831a9",
+          "Amount": 5000.0,
+          "CustomFields": {},
+          "Description": "По член 32-4 5% ",
+          "TaxCode": "115e658e-84f8-4c46-8d0a-e9b28f317d35"
+        }
+      ]
+    },
+    {
+      "Key": "ce42d7e7-8464-439d-831c-2bc440a3f05d",
+      "CustomFields": {},
+      "Description": "Увоз и останати даноци",
+      "From": "088204c0-7ae2-4454-a8a9-79dbbdadbe03",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "5e6aa40b-7753-4b87-bde2-6716ef652b9b",
+          "Amount": 1000.0,
+          "CustomFields": {},
+          "Description": "Увоз 18%",
+          "TaxCode": "31a9a48c-5733-40bf-b135-9422f3c0592e"
+        },
+        {
+          "Account": "5e6aa40b-7753-4b87-bde2-6716ef652b9b",
+          "Amount": 500.0,
+          "CustomFields": {},
+          "Description": "Увоз 5%",
+          "TaxCode": "5a254e38-7b2a-474d-9ab0-8777e37d7d56"
+        },
+        {
+          "Account": "5e6aa40b-7753-4b87-bde2-6716ef652b9b",
+          "Amount": 1000.0,
+          "CustomFields": {},
+          "Description": "Останати даноци 18%",
+          "TaxCode": "72e73474-87e3-4dfc-a673-8c9066d89203"
+        },
+        {
+          "Account": "5e6aa40b-7753-4b87-bde2-6716ef652b9b",
+          "Amount": 500.0,
+          "CustomFields": {},
+          "Description": "Останати даноци 5%",
+          "TaxCode": "fe1aa167-d121-412d-97f2-4d69d2c748c5"
+        }
+      ]
     }
   ],
   "699401fe-23fd-4b52-9699-b88b36fa6b26": [
@@ -175,14 +369,14 @@
         "{% assign V9 = period | taxcode: DDV_0_Bez_pravo_na_odbivka | tax_inclusive_sales | reversesign | balance | round %}",
         "{% assign V10 = period | taxcode: DDV_0_Nemaat_sediste_vo_zemjata | tax_inclusive_sales | reversesign | balance | round %}",
         "{% assign V11 = period | taxcode: DDV_5_Clen_32_a, DDV_18_Clen_32_a | tax_exclusive_sales | reversesign | balance | round %}",
-        "{% assign V12 = period | taxcode: DDV_18_Clen_32_4 | tax_exclusive_purchases | reversesign | balance | round %}",
-        "{% assign V13 = period | taxcode: DDV_18_Clen_32_4 | tax_on_purchases | reversesign | balance | round %}",
-        "{% assign V14 = period | taxcode: DDV_5_Clen_32_4 | tax_exclusive_purchases | reversesign | balance | round %}",
-        "{% assign V15 = period | taxcode: DDV_5_Clen_32_4 | tax_on_purchases | reversesign | balance | round %}",
-        "{% assign V16 = period | taxcode: DDV_18_Clen_32_a | tax_exclusive_purchases | reversesign | balance | round %}",
-        "{% assign V17 = period | taxcode: DDV_18_Clen_32_a | tax_on_purchases | reversesign | balance | round %}",
-        "{% assign V18 = period | taxcode: DDV_5_Clen_32_a | tax_exclusive_purchases | reversesign | balance | round %}",
-        "{% assign V19 = period | taxcode: DDV_5_Clen_32_a | tax_on_purchases | reversesign | balance | round %}",
+        "{% assign V12 = period | taxcode: DDV_18_Clen_32_4 | tax_exclusive_purchases | balance | round %}",
+        "{% assign V13 = period | taxcode: DDV_18_Clen_32_4 | tax_on_purchases | balance | round %}",
+        "{% assign V14 = period | taxcode: DDV_5_Clen_32_4 | tax_exclusive_purchases  | balance | round %}",
+        "{% assign V15 = period | taxcode: DDV_5_Clen_32_4 | tax_on_purchases | balance | round %}",
+        "{% assign V16 = period | taxcode: DDV_18_Clen_32_a | tax_exclusive_purchases | balance | round %}",
+        "{% assign V17 = period | taxcode: DDV_18_Clen_32_a | tax_on_purchases |  balance | round %}",
+        "{% assign V18 = period | taxcode: DDV_5_Clen_32_a | tax_exclusive_purchases |  balance | round %}",
+        "{% assign V19 = period | taxcode: DDV_5_Clen_32_a | tax_on_purchases  | balance | round %}",
         "{% assign V20 = V2 | plus: V4 | plus: V6 | plus: V13  | plus: V15 | plus: V17 | plus: V19 %}",
         "",
         "{% assign V21 = period | taxcode: DDV_18, DDV_5 | tax_exclusive_purchases  | balance | round %}",
@@ -195,7 +389,7 @@
         "{% assign V28 = period | taxcode: DDV_18_Uvoz, DDV_5_Uvoz | tax_on_purchases | balance | round %}",
         "{% assign V29 = V22 | plus: V24 | plus: V26 | plus: V28 %}",
         "{% assign V30 = period | taxcode: DDV_18_Ostanati_danoci, DDV_5_Ostanati_danoci | tax_on_purchases | balance | round %}",
-        "{% assign V31 = V29 | plus: V30 %}",
+        "{% assign V31 = V20 | minus: V29 | minus: V30 | abs %}",
         "{% assign V32 = 0 %}",
         "",
         "{% capture exportToXML %}{{ \"<?xml version='1.0' encoding='UTF-8'?> \" | escape }}",
@@ -275,31 +469,194 @@
       "To": "2021-03-31T00:00:00"
     }
   ],
+  "bbe8c088-729b-4b56-a7d7-26555270eced": [
+    {
+      "Key": "264d5c40-78f3-4270-874b-cfa11e0ff3d2",
+      "Description": "ДДВ-04 за прво тромесечје 2021",
+      "From": "2021-01-01T00:00:00",
+      "ReportTransformation": "3c7e1105-c3ef-4aa0-9c9e-282c548dd29e",
+      "To": "2021-03-31T00:00:00"
+    }
+  ],
+  "ad12b60b-23bf-4421-94df-8be79cef533e": [
+    {
+      "Key": "32e98966-85a4-4864-82da-950a2c867c10",
+      "BillingAddress": "",
+      "Customer": "498402f0-8e7c-4121-aef7-4129ad8286f7",
+      "CustomFields": {},
+      "InvoiceSummary": "Излезна фактура  со 0% данок (извоз, седиште надвор од земјата)",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 2000.0,
+          "CustomFields": {},
+          "Description": "Извоз",
+          "TaxCode": "e141987c-19f2-4982-84ee-a45b94e68c93"
+        },
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 2000.0,
+          "CustomFields": {},
+          "Description": "Седиште надвор од земјата",
+          "TaxCode": "f7a7d590-3354-459b-a786-3730ea70de8a"
+        }
+      ]
+    },
+    {
+      "Key": "4dc06e95-d60d-44b0-a2c0-5b66351fb9ca",
+      "BillingAddress": "",
+      "Customer": "498402f0-8e7c-4121-aef7-4129ad8286f7",
+      "CustomFields": {},
+      "InvoiceSummary": "Член 32-4",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 15000.0,
+          "CustomFields": {},
+          "Description": "По член 32-4 18%",
+          "TaxCode": "9201a831-7cf6-4963-a33d-fd404c6f02dc"
+        },
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 5000.0,
+          "CustomFields": {},
+          "Description": "По член 32-4 5% ",
+          "TaxCode": "115e658e-84f8-4c46-8d0a-e9b28f317d35"
+        }
+      ]
+    },
+    {
+      "Key": "b75515a6-8c60-4e4e-b3eb-6f6af801a9a1",
+      "BillingAddress": "",
+      "Customer": "498402f0-8e7c-4121-aef7-4129ad8286f7",
+      "CustomFields": {},
+      "InvoiceSummary": "Угостителски услуги ",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 750.0,
+          "CustomFields": {},
+          "Description": "Угостителски услуги",
+          "TaxCode": "ba184918-bbf2-4585-b388-6ad7a743ac46"
+        }
+      ]
+    },
+    {
+      "Key": "ce2473de-1419-484f-8261-5e5a263188f6",
+      "Customer": "498402f0-8e7c-4121-aef7-4129ad8286f7",
+      "CustomFields": {},
+      "InvoiceSummary": "Градежни работи",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 100000.0,
+          "CustomFields": {},
+          "Description": "По член 32-а 18%",
+          "TaxCode": "17b4df47-2148-40bd-a2c6-56d426d44ca0"
+        },
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 20000.0,
+          "CustomFields": {},
+          "Description": "По член 32-а 5%",
+          "TaxCode": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b"
+        }
+      ]
+    },
+    {
+      "Key": "e8150bef-16c0-4d67-a7b2-418ab40a096f",
+      "BillingAddress": "",
+      "Customer": "498402f0-8e7c-4121-aef7-4129ad8286f7",
+      "CustomFields": {},
+      "InvoiceSummary": "Фактура со ставки за излезен ДДВ",
+      "IssueDate": "2021-02-18T00:00:00",
+      "Lines": [
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 1000.0,
+          "CustomFields": {},
+          "Description": "Закупнина",
+          "TaxCode": "d7eba1a0-d27c-465c-94ca-38e7b480266a"
+        },
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 300.0,
+          "CustomFields": {},
+          "Description": "Електрична енергија",
+          "TaxCode": "d7eba1a0-d27c-465c-94ca-38e7b480266a"
+        },
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 100.0,
+          "CustomFields": {},
+          "Description": "Вода",
+          "TaxCode": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a"
+        },
+        {
+          "Account": "eb66080c-9353-4eaf-a7dd-e2425f9c9407",
+          "Amount": 50.0,
+          "CustomFields": {},
+          "Description": "Комунална такса",
+          "TaxCode": "a0af1cab-581e-41bc-b711-59390b68a767"
+        }
+      ]
+    }
+  ],
   "a9a71e47-82b3-49db-8aec-898adb460a80": [
     {
       "Key": "a9a71e47-82b3-49db-8aec-898adb460a80",
-      "Version": 246
+      "Version": 250
     }
   ],
   "f361339b-932a-4436-b56e-a337c1587c72": [
     {
-      "Key": "c75c027f-942c-4e5f-8e49-f7ea52367f41",
-      "Name": "Распоред на профитот"
+      "Key": "2398c48c-7565-4cb8-a871-9beae85db7bf",
+      "Name": "Drawings"
     },
     {
-      "Key": "f1bbcd1f-46e4-433d-ad43-f80125ed72fd",
-      "Name": "Сметка на сопственици"
+      "Key": "adaad49c-4b5b-457f-bac5-943842771e76",
+      "Name": "Funds contributed"
     },
     {
-      "Key": "f9db25cf-639b-472c-927d-427f62ac8970",
-      "Name": "Влог"
+      "Key": "cebcbff1-5c24-489e-b86f-69a28788aa7e",
+      "Name": "Share of profit"
+    }
+  ],
+  "2631d044-861d-4710-a871-d7a11461b4ba": [
+    {
+      "Key": "2631d044-861d-4710-a871-d7a11461b4ba",
+      "AccountCodes": true,
+      "EndDate": "2021-02-18T00:00:00",
+      "StartDate": "2021-02-01T00:00:00"
+    }
+  ],
+  "6d2dc48d-2053-4e45-8330-285ebd431242": [
+    {
+      "Key": "088204c0-7ae2-4454-a8a9-79dbbdadbe03",
+      "CustomFields": {},
+      "Name": "Услуги ДОО"
+    }
+  ],
+  "ac789d1f-034f-4964-a8b5-ebfffc3511f2": [
+    {
+      "Key": "ac789d1f-034f-4964-a8b5-ebfffc3511f2",
+      "BankAccounts": true,
+      "CashAccounts": true,
+      "Customers": true,
+      "InterAccountTransfers": true,
+      "PurchaseInvoices": true,
+      "SalesInvoices": true,
+      "Suppliers": true
     }
   ],
   "7f368d97-8b7f-4b39-b156-dc66afd9496a": [
     {
       "Key": "115e658e-84f8-4c46-8d0a-e9b28f317d35",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -308,6 +665,7 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "IsReverseCharged": true,
       "Name": "ДДВ 5% (Член 32-4)",
       "Rate": 5.0,
@@ -315,8 +673,7 @@
     },
     {
       "Key": "17b4df47-2148-40bd-a2c6-56d426d44ca0",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -325,14 +682,14 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "IsReverseCharged": true,
       "Name": "ДДВ 18% (Член 32-а)",
       "ReverseChargedRate": 18.0
     },
     {
       "Key": "31a9a48c-5733-40bf-b135-9422f3c0592e",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -341,14 +698,14 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "Name": "ДДВ 18% (Увоз)",
       "Rate": 18.0,
       "TaxRate": "CustomRate"
     },
     {
       "Key": "5a254e38-7b2a-474d-9ab0-8777e37d7d56",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -357,14 +714,14 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "Name": "ДДВ 5% (Увоз)",
       "Rate": 5.0,
       "TaxRate": "CustomRate"
     },
     {
       "Key": "72e73474-87e3-4dfc-a673-8c9066d89203",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -373,21 +730,23 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "Name": "ДДВ 18% (Останати даноци)",
       "Rate": 18.0,
       "TaxRate": "CustomRate"
     },
     {
       "Key": "8fad8a0f-f932-454e-b90b-7b48b6a02e1a",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
+      "Components": [],
+      "CustomFields": {},
       "Name": "ДДВ 5%",
       "Rate": 5.0,
       "TaxRate": "CustomRate"
     },
     {
       "Key": "9201a831-7cf6-4963-a33d-fd404c6f02dc",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -396,6 +755,7 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "IsReverseCharged": true,
       "Name": "ДДВ 18% (Член 32-4)",
       "Rate": 18.0,
@@ -416,8 +776,7 @@
     },
     {
       "Key": "ba184918-bbf2-4585-b388-6ad7a743ac46",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [],
       "CustomFields": {},
       "Name": "ДДВ 10%",
@@ -426,8 +785,7 @@
     },
     {
       "Key": "d40ac9e4-f58a-4ca8-837f-266ff1ce504b",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -436,13 +794,14 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "IsReverseCharged": true,
       "Name": "ДДВ 5% (Член 32-а)",
       "ReverseChargedRate": 5.0
     },
     {
       "Key": "d7eba1a0-d27c-465c-94ca-38e7b480266a",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [],
       "CustomFields": {},
       "Name": "ДДВ 18%",
@@ -452,7 +811,6 @@
     {
       "Key": "e141987c-19f2-4982-84ee-a45b94e68c93",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -461,12 +819,12 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "Name": "ДДВ 0% (Извоз)"
     },
     {
       "Key": "f7a7d590-3354-459b-a786-3730ea70de8a",
       "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -475,12 +833,12 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "Name": "ДДВ 0% (Немаат седиште во земјата)"
     },
     {
       "Key": "fe1aa167-d121-412d-97f2-4d69d2c748c5",
-      "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71",
-      "Archived": true,
+      "Account": "cd55615f-af30-4b64-b563-d5e9014cd1d7",
       "Components": [
         {
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
@@ -489,9 +847,18 @@
           "Account": "6ae01b5d-70fd-42ab-9a4c-cd9ad76c5f71"
         }
       ],
+      "CustomFields": {},
       "Name": "ДДВ 5% (Останати даноци)",
       "Rate": 5.0,
       "TaxRate": "CustomRate"
+    }
+  ],
+  "68e0d57b-4a59-453e-b8d4-6166f097eacd": [
+    {
+      "Key": "eb9f2dc4-4013-418e-9b22-f2f1f58110e9",
+      "Description": "Преглед на ДДВ за прво тромесечје 2021",
+      "FromDate": "2021-01-01T00:00:00",
+      "ToDate": "2021-03-31T00:00:00"
     }
   ]
 }
