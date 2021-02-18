@@ -66,10 +66,10 @@
   "a56e89d1-7bee-4509-8b84-c9ebc3808b0c": [
     {
       "Key": "a56e89d1-7bee-4509-8b84-c9ebc3808b0c",
-      "EncodedNumberFormat": "CgEuEgEsGAM=",
+      "EncodedNumberFormat": "CgEsEgEuGAM=",
       "FirstDayOfWeek": 1,
-      "ShortDatePattern": "dd-MMM-yy",
-      "TimeFormat": "h:mm:ss tt"
+      "ShortDatePattern": "dd.MM.yyyy",
+      "TimeFormat": "HH:mm:ss"
     }
   ],
   "26b9e4a5-ce10-4f30-94c7-23a1ca4428f9": [
