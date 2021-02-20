@@ -389,7 +389,7 @@
         "{% assign V28 = period | taxcode: DDV_18_Uvoz, DDV_5_Uvoz | tax_on_purchases | balance | round %}",
         "{% assign V29 = V22 | plus: V24 | plus: V26 | plus: V28 %}",
         "{% assign V30 = period | taxcode: DDV_18_Ostanati_danoci, DDV_5_Ostanati_danoci | tax_on_purchases | balance | round %}",
-        "{% assign V31 = V20 | minus: V29 | minus: V30 | abs %}",
+        "{% assign V31 = V20 | minus: V29 | minus: V30 %}",
         "{% assign V32 = 0 %}",
         "",
         "{% capture exportToXML %}{{ \"<?xml version='1.0' encoding='UTF-8'?> \" | escape }}",
